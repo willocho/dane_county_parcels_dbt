@@ -1,0 +1,13 @@
+madison-data:
+  target: staging
+  outputs:
+    staging:
+      type: postgres
+      host: madison-data.house
+      user: test
+      password: test
+      port: 5432
+      dbname: postgres
+      schema: staging
+      threads: 1
+
